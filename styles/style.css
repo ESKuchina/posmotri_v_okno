@@ -101,7 +101,7 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label-text:hover {
+.search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -122,7 +122,7 @@ ol {
 
 input[type="checkbox"]:checked + span::before {
   content: "";
-  position: absolute;
+  position: fixed;
   margin-top: 1px;
   margin-left: 1px;
   height: 16px;
